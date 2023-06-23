@@ -1,0 +1,163 @@
+/* Login Page */
+.login {
+    min-height: 100vh;  
+    color: #626209; 
+  }
+  
+  .bg-image {
+    /* background-image: url('https://source.unsplash.com/WEQbe2jBg40/600x1200');
+    background-size: cover;
+    background-position: center; */
+    background-image: linear-gradient(to right, #7CAE00 , #468C00);  }
+
+  .logo {
+    /* background-image: url('./auth/login/img/download.jpeg');
+    background-repeat: no-repeat; */
+    background-position: center;
+    background-size: cover;
+    height: 250px;
+    width: 250px;
+    margin: 0 auto;
+    border-radius: 200px;
+  }
+  
+  .login-heading {
+    font-weight: 500;
+    color: #468C00;
+  }
+  
+  .btn-login {
+    font-size: 0.9rem;
+    letter-spacing: 0.05rem;
+    padding: 0.75rem 1rem;
+    background-color: #4d8244;
+    border: none;
+    border-radius: 20px;
+  }
+
+   /* a{
+    color: #626209;
+    text-decoration: none;
+  } */
+
+  .form-check-input:checked{
+    background-color: #b7b817;
+    background-color: #468c00;
+  }
+
+  .bienvenida-login{
+    color: #ffff;
+    margin-top: 20%;
+    
+  }
+
+/* Home Page */
+#wrapper { overflow-x: hidden; }
+
+#sidebar-wrapper {
+    min-height: 100vh;
+    margin-left: -15rem;
+    transition: margin 0.25s ease-out;
+    background-color: #057c46;
+}
+
+#page-content-wrapper { background: #f3f3f3; }
+
+.list-group a {
+  background-color: #057c46;
+  color: #ffff;
+  text-decoration: none;
+  /* border-right-color: #386f00 !important; */
+}
+.list-group a:hover{
+  background-color: #386f00 !important;
+  color: #fff !important;
+}
+
+.dropdown-menu a{
+  color: #626209 ;
+ 
+}
+
+.userButton {
+  color: #fff !important;
+  background-color: #468c00;
+  border-radius: 25px;
+  padding: 12px 12px 12px 12px;
+}
+
+.userButton i { color: #fff; }
+
+.userButton:hover{
+  color: #fff;
+  background-color: #386f00;
+  border-radius: 25px;
+}
+
+.campana i{
+  color: #468C00;
+  font-size: 25px;
+}
+
+#sidebar-wrapper .sidebar-heading {
+    padding: 0.875rem 1.25rem;
+    font-size: 2.2rem;
+}
+
+
+#sidebar-wrapper .list-group {
+    width: 15rem;
+}
+
+body.sb-sidenav-toggled #wrapper #sidebar-wrapper { margin-left: 0; }
+
+@media (min-width: 768px) {
+    #sidebar-wrapper {
+        margin-left: 0;
+    }
+
+    #page-content-wrapper {
+        min-width: 0;
+        width: 100%;
+    }
+
+    body.sb-sidenav-toggled #wrapper #sidebar-wrapper {
+        margin-left: -15rem;
+    }
+}
+
+.tituloP{
+    color:#1c140d;
+}
+
+.empresaName {
+  border-bottom-color: #386f00 !important;
+}
+
+.list-group-item{
+  border-bottom-color: #386f00;
+}
+
+.list-group-item-light.list-group-item-action.active{
+  background-color: #386f00;
+  color: #fff;
+  border-color: #386f00;
+}
+
+#sidebarToggle{
+    background: #386f00; color: #fff;
+}
+
+/* #sidebar-wrapper {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1; 
+  top: 0; 
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 60px;
+  transition: 0.5s;
+} */
+
