@@ -67,21 +67,21 @@
   background-color: #057c46;
   color: #ffff;
   text-decoration: none;
-  /* border-right-color: #386f00 !important; */
+  border-right-color: #057c46 !important;
 }
 .list-group a:hover{
-  background-color: #386f00 !important;
+  background-color: #059453 !important;
   color: #fff !important;
 }
 
 .dropdown-menu a{
-  color: #626209 ;
+  color: #2b1719 ;
  
 }
 
 .userButton {
   color: #fff !important;
-  background-color: #468c00;
+  background-color: #057c46;
   border-radius: 25px;
   padding: 12px 12px 12px 12px;
 }
@@ -90,12 +90,12 @@
 
 .userButton:hover{
   color: #fff;
-  background-color: #386f00;
+  background-color: #059453;
   border-radius: 25px;
 }
 
 .campana i{
-  color: #468C00;
+  color: #057c46;
   font-size: 25px;
 }
 
@@ -131,11 +131,11 @@ body.sb-sidenav-toggled #wrapper #sidebar-wrapper { margin-left: 0; }
 }
 
 .empresaName {
-  border-bottom-color: #386f00 !important;
+  border-bottom-color: #057c46 !important;
 }
 
 .list-group-item{
-  border-bottom-color: #386f00;
+  border-bottom-color: #057c46;
 }
 
 .list-group-item-light.list-group-item-action.active{
@@ -145,7 +145,7 @@ body.sb-sidenav-toggled #wrapper #sidebar-wrapper { margin-left: 0; }
 }
 
 #sidebarToggle{
-    background: #386f00; color: #fff;
+    background: #057c46; color: #fff;
 }
 
 /* #sidebar-wrapper {

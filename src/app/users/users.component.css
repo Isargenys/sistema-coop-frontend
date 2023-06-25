@@ -1,0 +1,27 @@
+.btn-cambiar{
+    background-color: #02483e;
+    color: #fff;
+}
+
+.btn-cambiar:hover{
+    background-color: #03594c;
+}
+
+.btn-guardar:hover{
+    background-color: #9bb61b;
+    color: #fff;
+}
+
+.btn-guardar{
+    border: 2px solid #9bb61b;
+    color: #9bb61b;
+}
+
+label{
+    color: #2b1719;
+}
+
+h5{
+    color: #9bb61b;
+    font-weight: 500;
+}

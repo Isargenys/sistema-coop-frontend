@@ -1,0 +1,25 @@
+.btn-enviar{
+    color: #9bb61b;
+    border:2px solid #9bb61b;
+    width: 40%;
+    font-weight: 600;
+}
+
+.btn-enviar:hover{
+    background-color: #9bb61b;
+    color: #fff;
+}
+
+.card{
+    border-radius: 20px;
+}
+
+label{
+    color: #2b1719;
+    font-weight: 400;
+}
+
+.titulo{
+    color: #9bb61b;
+    font-weight: 700;
+}

@@ -4,7 +4,11 @@
   }
   
   .bg-image {
-    background-image: linear-gradient(to right, #7CAE00 , #468C00);  }
+    /* background-image: linear-gradient(to right, #7CAE00 , #468C00);   */
+    background-image: radial-gradient(circle, #02483e, #005543, #006246, #006f47, #057c46);
+  
+  
+  }
 
   .logo {
     background-image: url('../img/logo.jpeg');

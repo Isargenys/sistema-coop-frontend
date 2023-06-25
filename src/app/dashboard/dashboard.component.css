@@ -7,32 +7,32 @@
   }
   
   .tituloCuenta{
-    color: #b7b817;
-    font-weight: 600;
+    color: #9bb61b;
+    font-weight: 500;
   }
   
   .resumen{
-    color: #5a4e3c;
+    color: #2b1719;
   }
   .Ncuenta{
     margin-top: -17px;
-    color: #5a4e3c;
+    color: #2b1719;
   
   }
   
   .numeroCuenta{
-    color: #5a4e3c;
+    color: #2b1719;
     font-weight: 700;
   }
   
   .balanceDisponible{
-    color: #b7b817;
+    color: #9bb61b;
     font-weight: 500;
   }
   
   .balance{
-    color: #5a4e3c;
+    color: #2b1719;
   }
   
-  .btnDetalleCuenta { background: #468c00; color: #fff;}
-  .btnDetalleCuenta:hover { background-color: #386f00; }
+  .btnDetalleCuenta { background: #057c46; color: #fff;}
+  .btnDetalleCuenta:hover { background-color: #059453; }

@@ -11,6 +11,8 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HomeComponent } from './home/home.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { AccountDetailComponent } from './account-detail/account-detail.component';
+import { UsersComponent } from './users/users.component';
+import { SolicitudesComponent } from './solicitudes/solicitudes.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { AccountDetailComponent } from './account-detail/account-detail.componen
     PasswordRecoveryComponent,
     HomeComponent,
     DashboardComponent,
-    AccountDetailComponent
+    AccountDetailComponent,
+    UsersComponent,
+    SolicitudesComponent
   ],
   imports: [
     BrowserModule,
