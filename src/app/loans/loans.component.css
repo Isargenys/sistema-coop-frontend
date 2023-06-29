@@ -1,0 +1,38 @@
+.tituloHome{
+    color: #626209;
+  }
+  
+  .card{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+  }
+  
+  .tituloCuenta{
+    color: #9bb61b;
+    font-weight: 500;
+  }
+  
+  .resumen{
+    color: #2b1719;
+  }
+  .Ncuenta{
+    margin-top: -17px;
+    color: #2b1719;
+  
+  }
+  
+  .numeroCuenta{
+    color: #2b1719;
+    font-weight: 700;
+  }
+  
+  .balanceDisponible{
+    color: #9bb61b;
+    font-weight: 500;
+  }
+  
+  .balance{
+    color: #2b1719;
+  }
+  
+  .btnDetalleCuenta { background: #057c46; color: #fff;}
+  .btnDetalleCuenta:hover { background-color: #059453; }

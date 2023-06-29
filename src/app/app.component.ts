@@ -9,6 +9,7 @@ export class AppComponent {
   title = 'coopcmdweb';
   constructor() { }
 
+  islogin: boolean = true;
   ngOnInit(): void {
   }
 

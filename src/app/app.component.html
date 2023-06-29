@@ -1,1 +1,69 @@
-<router-outlet></router-outlet>
+<div *ngIf="islogin; else login">
+    <div class="d-flex" id="wrapper">
+        <div class="sidebar" id="sidebar-wrapper">
+            <div class="empresaName sidebar-heading border-bottom  text-center fs-3 text-white">Sistema Coop</div>
+            <div class="list-group list-group-flush">
+                <a class="list-group-item list-group-item-action list-group-item-light p-3" routerLink="/dashboard">
+                    <i class="bi bi-house-door"></i> &nbsp; Inicio
+                </a>
+                <a class="list-group-item list-group-item-action list-group-item-light p-3" routerLink="/loans">
+                    <i class="bi bi-cash-coin"></i> &nbsp; Prestamos
+                </a>
+                <a class="list-group-item list-group-item-action list-group-item-light p-3" routerLink="/savings">
+                    <i class="bi bi-piggy-bank"></i> &nbsp; Ahorros y Aportaciones
+                </a>
+                <a class="list-group-item list-group-item-action list-group-item-light p-3" routerLink="/solicitudes">
+                    <i class="bi bi-arrow-left-right"></i> &nbsp; Solicitudes
+                </a>
+                <a class="list-group-item list-group-item-action list-group-item-light p-3" routerLink="/login">
+                    <i class="bi bi-door-closed"></i> &nbsp; Salir del Sistema
+                </a>
+
+            </div>
+        </div>
+
+        <div id="page-content-wrapper">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid">
+                    <button class="btn" id="sidebarToggle" (click)="openNav()">Menu</button>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation"><span
+                            class="navbar-toggler-icon"></span></button>
+                    <div class="collapse navbar-collapse mt-2" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link campana" href="#!" data-bs-toggle="tooltip"
+                                    data-bs-placement="bottom" data-bs-title="Notificaciones">
+                                    <i class="bi bi-bell-fill mx-5"></i>
+                                </a></li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle userButton px-4" id="navbarDropdown" href="#"
+                                    role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <i class="bi bi-person-fill"></i>
+                                    Nombre Usuario
+                                </a>
+                                <div class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="#!" routerLink="/users"><i
+                                            class='bi bi-person-workspace'></i> Perfil</a>
+                                    <a class="dropdown-item" href="#!"><i class="bi bi-sliders2"></i>
+                                        Configuraciones</a>
+                                    <div class="dropdown-divider"></div>
+                                    <button class="dropdown-item"><i class="bi bi-door-closed"></i> Salir del
+                                        sistema</button>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <div class="container-fluid customContainer">
+                <router-outlet></router-outlet>
+
+            </div>
+        </div>
+    </div>
+</div>
+<ng-template #login>
+    <app-login></app-login>
+</ng-template>

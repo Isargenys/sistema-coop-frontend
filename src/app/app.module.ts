@@ -13,6 +13,9 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { AccountDetailComponent } from './account-detail/account-detail.component';
 import { UsersComponent } from './users/users.component';
 import { SolicitudesComponent } from './solicitudes/solicitudes.component';
+import { LoansComponent } from './loans/loans.component';
+import { LoanTransactionComponent } from './loans/loan-transaction/loan-transaction.component';
+import { SavingsComponent } from './savings/savings.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +27,10 @@ import { SolicitudesComponent } from './solicitudes/solicitudes.component';
     DashboardComponent,
     AccountDetailComponent,
     UsersComponent,
-    SolicitudesComponent
+    SolicitudesComponent,
+    LoansComponent,
+    LoanTransactionComponent,
+    SavingsComponent
   ],
   imports: [
     BrowserModule,
